@@ -1,0 +1,19 @@
+body
+{
+  color: green;
+}
+h1
+{
+  color: orange;
+}
+/*Just a random class to specify
+1.Class can be used several times in a html file
+2. but one id is valid for a single use*/
+.demo
+{
+  color: blue;
+}
+#demo
+{
+  color: red;
+}
