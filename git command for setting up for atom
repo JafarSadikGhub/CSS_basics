@@ -1,0 +1,6 @@
+echo "# reponame"
+git init
+git add README.md
+git commit -m "bla bla"
+git remote add origin repoaddress
+git push -u origin master
