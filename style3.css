@@ -1,0 +1,45 @@
+/*makes background of every instance purple whose have "a" tag*/
+
+a {
+  background: purple;
+  padding: 6px;
+}
+/*Makes link text color white*/
+
+a:link {
+  color: white;
+}
+
+/*If any link is visited then the background color
+will be changed from purple to lightblue*/
+
+a:visited {
+  background: lightblue;
+}
+
+/* when clicked on a link, its borders becomes black
+unless its released*/
+
+a:active {
+  border: 1px solid black;
+}
+
+/*when hover over its background becomes of no color (white)*/
+
+a:hover {
+  background: none;
+}
+/*When hover over a paragraph, its become green*/
+
+p:hover {
+  background: green;
+}
+/*color bordering while using tab to change options*/
+a:focus {
+  outline: 5px solid green;
+}
+
+input:focus
+{
+  outline: 2px solid blue;
+}
