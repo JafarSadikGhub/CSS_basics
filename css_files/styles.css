@@ -1,0 +1,91 @@
+body
+{
+  /*background: #308E64;*/
+  font-family:'Lato', sans-serif;
+  font-weight: 700;
+  margin: 0;
+}
+
+
+h1,h2
+{
+  font-family: 'ZCOOL QingKe HuangYou', cursive;
+}
+h1
+{
+  font-size: 80px;
+  margin-top: 0;
+}
+h2
+{
+  font-size: 40px;
+  margin-top: 0;
+}
+
+
+
+
+
+a
+{
+   color: green;
+}
+
+a:hover
+{
+  text-decoration: none;
+}
+.content-wrap
+{
+  max-width:950px;
+  margin: 0 auto;
+  padding:50px;
+  overflow: auto;
+}
+
+/* header
+{
+ text-align: center;
+} */
+header h1, header h2
+{
+  color: #2E8B57;
+  margin: 0;
+
+}
+
+.profile-img
+{
+  width: 200px;
+  border-radius: 15%;
+  float: left;
+  margin-right: 30px;
+}
+header, footer
+{
+  background: #00FFFF;
+  color: #564138;
+}
+
+footer
+{
+  text-align: center;
+}
+
+.contact-info a
+{
+  background: white;
+  padding: 30px;
+  display: inline-block;
+}
+
+.work
+{
+  background: #D4CB92;
+  color: #5B8266;
+}
+
+.education
+{
+  background: #BCD3F2;
+}
