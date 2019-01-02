@@ -1,3 +1,9 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
 body
 {
   /*background: #308E64;*/
@@ -14,17 +20,26 @@ h1,h2
 h1
 {
   font-size: 80px;
-  margin-top: 0;
+
 }
 h2
 {
   font-size: 40px;
   margin-top: 0;
 }
-
-
-
-
+.col-narrow
+{
+  width: 35%;
+  float: left;
+  padding-right: 3%;
+  min-height: 175px;
+}
+.col-wide
+{
+  width: 62%;
+  float: left;
+  min-height: 175px;
+}
 
 a
 {
@@ -40,7 +55,8 @@ a:hover
   max-width:950px;
   margin: 0 auto;
   padding:50px;
-  overflow: auto;
+  /* overflow: auto; */
+  overflow: hidden;
 }
 
 /* header
